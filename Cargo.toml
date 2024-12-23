@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+gl = "0.14.0"             # OpenGL function loader
+objc = "0.2.7"
+core-foundation = "0.10.0"   # For loading textures
+core-graphics = "0.24.0"  
+glium = "0.36.0"        # OpenGL wrapper
 
 [[bin]]
 name = "rust-renderer"
